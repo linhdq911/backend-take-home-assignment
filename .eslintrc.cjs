@@ -8,12 +8,12 @@ module.exports = {
     project: path.join(__dirname, 'tsconfig.json'),
   },
   plugins: [
-    '@typescript-eslint', //
+    '@typescript-eslint', 
     'prettier',
   ],
   extends: [
-    'plugin:@typescript-eslint/recommended', //
-    'next',
+    'plugin:@typescript-eslint/recommended', 
+    'next/core-web-vitals',
     'prettier',
   ],
   rules: {
